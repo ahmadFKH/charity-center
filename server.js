@@ -4,7 +4,6 @@ const express = require('express');
 const path = require('path');
 const http = require('http');
 const bodyParser = require('body-parser');
-//const mongoose = require('mongoose');
 //const passport = require('passport');
 //var LocalStrategy = require('passport-local').Strategy;
 //  var jwt = require('jsonwebtoken');
@@ -16,9 +15,6 @@ const bodyParser = require('body-parser');
 
 
 const app = express();
-
-// mongoose.connect('mongodb://CCW:Aiagm100p@ds219181.mlab.com:19181/crypto_currency_world');
-
 
 // Parsers for POST data
 app.use(bodyParser.json());
